@@ -1,4 +1,5 @@
 function SpecialCard(props) {
+    console.log(props);
     return (<div className="card col-lg-4" style={{width:"18rem"}} >
         <img src={props.image} className="card-img-top" alt={props.subtitle} />
         <div className="card-body">

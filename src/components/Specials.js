@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 function Specials(props) {
 
-    let specialDishes = useState([{
+    let [specialDishes,setSpecialDishes] = useState([{
         title: 'Greek Salad',
         image: imgGreekSalad,
         subtitle: '$12.99',
@@ -26,14 +26,19 @@ function Specials(props) {
     },
     ]);
 
-    const specialCards = specialDishes.map((q,index) => {
-        return <SpecialCard key={q.title} title={q.title} subtitle={q.subtitle} image={q.image} text={q.text}></SpecialCard>});
 
     return (
         <div className="container px-4 py-5">
             <div className="row">
                 <h1>asdsadas</h1>
-                {specialCards}
+                {specialDishes.map((dish, i)=> {
+                    console.log(dish);
+                    return <SpecialCard key={dish.title}
+                    title = {dish.title}
+                    image = {dish.image}
+                    text = {dish.text}
+                    subtitle = {dish.subtitle}/>
+                })}
             </div>
         </div>
     );
