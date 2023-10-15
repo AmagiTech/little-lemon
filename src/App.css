@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-green{
+  background-color: #495E57;
+}
+.bg-yellow{
+  background-color: #F4CE14;
+}
+.text-green{
+  color: #495E57;
+}
+.text-yellow{
+  color: #F4CE14;
+}
+
+.btn-yellow{
+  background-color:#F4CE14;
+  color:black;
+}
+
+.btn-yellow:hover{
+  background-color:#e4c735;
+}
+
+.btn-yellow:active {
+  background-color:#ccb231;
+}
