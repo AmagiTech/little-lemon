@@ -43,7 +43,8 @@ function BookingForm(props) {
                         <form method="post" style={{ display: "grid", maxWidth: '200px', gap: '20px' }} onSubmit={handleSubmit}>
                             <div className="mb-3">
                                 <label htmlFor="resDate" className="form-label">Choose Date</label>
-                                <input type="date" id="resDate"
+                                <input type="date" 
+                                    id="resDate"
                                     aria-label="Choose date"
                                     value={values.resDate}
                                     onChange={handleChange}
