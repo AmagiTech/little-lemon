@@ -1,5 +1,6 @@
-import imgRestaurantFood from '../assets/img/restauranfood.jpg';
-import '../App.css';
+import React from "react";
+import imgRestaurantFood from '../../../assets/img/restauranfood.jpg';
+import '../../../App.css';
 
 function Heroes(props) {
     return (
@@ -13,7 +14,7 @@ function Heroes(props) {
                     <h2 className="text-white">Chicago</h2>
                     <p className="lead text-white">We are a family owned Mediterranean restaurant focused on traditional recipes served with a modern twist.</p>
                     <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" className="btn btn-yellow btn-lg px-4 me-md-2">Reserve A Table</button>
+                        <a type="button" className="btn btn-yellow btn-lg px-4 me-md-2" href="/booking">Reserve A Table</a>
                     </div>
                 </div>
             </div>

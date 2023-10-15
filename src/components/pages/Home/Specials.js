@@ -1,8 +1,9 @@
-import imgBruchetta from '../assets/img/bruchetta.svg';
-import imgLemonDesert from '../assets/img/lemon dessert.jpg';
-import imgGreekSalad from '../assets/img/greek salad.jpg';
-import SpecialCard from '../components/SpecialsCard';
+import imgBruchetta from '../../../assets/img/bruchetta.svg';
+import imgLemonDesert from '../../../assets/img/lemon dessert.jpg';
+import imgGreekSalad from '../../../assets/img/greek salad.jpg';
+import SpecialCard from '../Home/SpecialsCard';
 import { useState } from 'react';
+import React from "react";
 
 function Specials(props) {
 

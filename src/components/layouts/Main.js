@@ -1,11 +1,8 @@
-import Heroes from "../Heroes";
-import Specials from '../Specials';
+import React from "react";
 function Main(props) {
    return (
       <main>
-         { props.children }
-         <Heroes />
-         <Specials></Specials>
+         {props.children}
       </main>
    );
 }

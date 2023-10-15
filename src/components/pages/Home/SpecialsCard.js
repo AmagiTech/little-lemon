@@ -1,4 +1,5 @@
-import '../App.css';
+import React from "react";
+import '../../../App.css';
 function SpecialCard(props) {
     console.log(props);
     return (<div className="card col-lg-4 m-2" style={{width:"18rem"}} >
